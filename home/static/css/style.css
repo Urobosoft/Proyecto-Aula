@@ -195,11 +195,11 @@ body {
 
 /* price */
 
-.price{
+.price {
     text-align: center;
 }
 
-.price__table{
+.price__table {
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +208,7 @@ body {
     align-items: center;
 }
 
-.price__element{
+.price__element {
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
@@ -221,7 +221,7 @@ body {
     --color-items: #696871;
 }
 
-.price__element--best{
+.price__element--best {
     width: 370px;
     padding: 60px 40px;
     background-color: #FF7143;
@@ -232,19 +232,18 @@ body {
     --color-items: #fff;
 }
 
-
-.price__name{
+.price__name {
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 300;
 }
 
-.price__price{
+.price__price {
     font-size: 2.5rem;
     color: var(--color-price);
 }
 
-.price__items{
+.price__items {
     margin-top: 35px;
     display: grid;
     gap: 1em;
@@ -252,9 +251,18 @@ body {
     font-size: 1.2rem;
     margin-bottom: 50px;
     color: var(--color-items);
+    text-align: center; /* Centra el contenido del div */
 }
 
-.price__cta{
+.price__items img {
+    width: 200px; /* Establece el ancho deseado para todas las imágenes */
+    height: 200px; /* Establece la altura deseada para todas las imágenes */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra horizontalmente la imagen en el div */
+    filter: brightness(1.2) contrast(1.2); /* Aplica filtros de brillo y contraste a las imágenes para que se vean más atractivas */
+}
+
+.price__cta {
     display: block;
     padding: 20px 0;
     border-radius: 10px;
@@ -264,6 +272,9 @@ body {
     color: var(--color-cta);
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
+
+
+
 
 /* Testimony */
 
